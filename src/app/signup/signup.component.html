@@ -1,0 +1,18 @@
+<form (ngSubmit)="onSubmit()">
+  <h2>Sign up</h2>
+
+  <p>
+    <label for="email"> Email</label> <br />
+    <input type="text" name="email" id="email" [(ngModel)]="email" />
+  </p>
+  <p>
+  <p>
+    <label for="username"> choose an username</label> <br />
+    <input type="text" name="username" id="username"  [(ngModel)]="newUsername"/>
+  </p>
+  <p>
+    <label for="password"> choose a Password</label> <br />
+    <input type="text" name="password" id="password"  [(ngModel)]="newPassword" />
+  </p>
+  <button>send</button>
+</form>

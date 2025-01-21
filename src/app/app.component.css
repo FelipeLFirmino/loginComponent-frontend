@@ -1,0 +1,25 @@
+
+  /* Estilo para botões */
+  button {
+    background-color: #2575fc; /* Azul do degradê */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  button:hover {
+    background-color: #1a5bbf; /* Tom mais escuro no hover */
+  }
+
+  p{
+    font-size: 1opx;
+    color: #333;
+  }

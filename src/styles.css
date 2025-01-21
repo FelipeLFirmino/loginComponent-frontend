@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+/* Fundo da aplicação com degradê */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Escolha uma fonte simples */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Degradê roxo-azul */
+    color: #333; /* Texto em cor neutra */
+    line-height: 1.6;
+    min-height: 100vh; /* Garante que o fundo ocupe toda a tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Centralizando o container principal */
+  .container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco translúcido */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
