@@ -11,13 +11,15 @@ import { FormsModule } from '@angular/forms';
 })
 export class SignupComponent {
 
+  //initializing the variables that are going to be used on the form, they use two way data binding
    newUsername: string = ""
    newPassword: string = ""
    email: string = ""
 
-
+  //outputing the event that is going to be triggered when the form is submitted to the parent component
     @Output() signupEvent = new EventEmitter<SignupData>();
 
+   //this function is going to be triggered when the form is submitted, it emits the event to the parent component 
     onSubmit(){
       this.signupEvent.emit({
         username: this.newUsername,
